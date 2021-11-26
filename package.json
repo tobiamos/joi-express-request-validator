@@ -1,0 +1,35 @@
+{
+  "name": "express-joi-validator",
+  "version": "1.0.0",
+  "description": "Declarative http request validator for expressjs using Joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiamos/joi-express-request-validator.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "joi",
+    "boom"
+  ],
+  "author": "Amos Tobi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tobiamos/joi-express-request-validator/issues"
+  },
+  "homepage": "https://github.com/tobiamos/joi-express-request-validator#readme",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "express": "^4.17.1",
+    "joi": "^17.4.2"
+  }
+}
